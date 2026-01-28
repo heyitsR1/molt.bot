@@ -2,7 +2,7 @@
 
 Landing page for [Moltbot](https://github.com/moltbot/moltbot) — your personal AI assistant.
 
-**Live**: [clawd.bot](https://clawd.bot)
+**Live**: [molt.bot](https://molt.bot)
 
 ## Pages
 
@@ -38,19 +38,19 @@ Automatically deployed to GitHub Pages on push to `main`.
 
 The landing page hosts installer scripts:
 
-- **macOS/Linux**: `curl -fsSL --proto '=https' --tlsv1.2 https://clawd.bot/install.sh | bash`
-- **macOS/Linux (CLI only, no onboarding)**: `curl -fsSL --proto '=https' --tlsv1.2 https://clawd.bot/install-cli.sh | bash`
-- **Windows**: `iwr -useb https://clawd.bot/install.ps1 | iex`
+- **macOS/Linux**: `curl -fsSL --proto '=https' --tlsv1.2 https://molt.bot/install.sh | bash`
+- **macOS/Linux (CLI only, no onboarding)**: `curl -fsSL --proto '=https' --tlsv1.2 https://molt.bot/install-cli.sh | bash`
+- **Windows**: `iwr -useb https://molt.bot/install.ps1 | iex`
 
 These scripts:
 1. Install Homebrew (macOS) or detect package managers (Windows)
 2. Install Node.js 22+ if needed
-3. Install clawdbot globally via npm
+3. Install moltbot globally via npm
 4. Run `clawdbot doctor --non-interactive` for migrations (upgrades only)
 5. Prompt to run `clawdbot onboard` (new installs)
 
 ## Related
 
 - [Moltbot](https://github.com/moltbot/moltbot) — Main repository
-- [Docs](https://docs.clawd.bot) — Documentation
+- [Docs](https://docs.molt.bot) — Documentation
 - [Discord](https://discord.gg/clawd) — Community
